@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Montserrat';
+ 	background-color: white ;
+    cursor: url("img/cursor_plein.png"), pointer;
+    color: #292929;
+
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        flex-direction: column;
+    
+}
+.cursorPrecis {
+    cursor: url("img/cursor_plein_petit.png"),pointer;
+    transition-duration: 600ms;
+}
+    .retour {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 120px;
+        width: 80px;
+        text-decoration: none;
+        margin-right: 5%;
+    }
+        .imgtravaux{
+            width: 30vw;  
+        }
+        .boxArrowBack {
+            width: 50px;
+            height: 50px;
+            background-image: url(img/icons/box-arrow-in-up-black.svg);
+            background-repeat: no-repeat;
+        }
+        .iconRetour {
+            font-size: 12px;
+            font-weight: 600;
+            color: #292929;
+        }
+            .retour:hover {
+                background-color: rgba(181, 181, 181, 0.228);
+            }
+            .retour:hover>.iconRetour {
+                margin-top: 10px;
+            }
+
+.infoSite {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+.information {
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
