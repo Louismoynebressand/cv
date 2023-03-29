@@ -47,4 +47,11 @@ h1{
 a {
   cursor: url("img/cursor_plein.png"), pointer;
 }
+
+@media screen and (max-width: 480px){
+
+  .container {
+    flex-direction: column;
+  }
   
+  }

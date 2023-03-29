@@ -57,7 +57,7 @@ header {
 }
 
 .sousTitre{
-    font-size: 33;
+    font-size: 17px;
     font-weight: 100;
     letter-spacing: 21px;
     color: white;
@@ -78,7 +78,9 @@ header {
     align-items: left;
     justify-content: center;
 }
-
+.presentationTexte {
+    font-size: 16px;
+}
 
 .souligner{
     height: 4px;
@@ -141,7 +143,7 @@ p{
     font-weight: 400;
 }
 .nomEcole{
-    font-size: 22;
+    font-size: 18px;
     font-weight: 700;
 }
 
@@ -212,6 +214,7 @@ h3{
     display: flex;
     justify-content: space-between;
     width: 900px;
+    
 }
 .containerDroite{
     display: flex;
@@ -241,6 +244,12 @@ h3{
 }
 .competencesSoft{
     margin-top: 40px;
+    display: flex;
+    
+}
+.tiret {
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .hardSkills{
     display: flex;
@@ -333,3 +342,163 @@ h3{
 p {
     color: white;
 }
+
+@media screen and (max-width: 480px){
+    body {
+        align-items: center;
+        margin-top: 30px;
+    }
+    .container {
+        max-width: 100vw;
+    }
+    .conteneur{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    header {
+        flex-direction: column-reverse;
+        align-items: flex-end;
+    }
+    .identite {
+        width: 85vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .titre {
+        font-size: 30px;
+    }
+    .sousTitre {
+        font-size: 12px;
+        letter-spacing: 9px;
+    }
+
+    .presentation {
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 150px;
+        align-items: center;
+    
+    }
+    .textePresentation {
+        width: 80vw;
+        margin-left: 0%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+    }
+    .presentationTexte {
+        font-size: 13px;
+        line-height: 250%;
+    }
+
+
+    .container {
+        width: 80%;
+    }
+    .date {
+        font-size: 12px;
+    }
+    .etude {
+        font-size: 13px;
+    }
+    .nomEcole {
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .experiencesPro {
+        width: 480px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .partieHaut{
+        flex-direction: column;
+        width: 100vw;
+        align-items: center;
+        justify-content: center;
+    }
+    .partieBas {
+        flex-direction: column;
+        width: 100vw;
+        justify-content: center;
+        align-items: top;
+   }
+   .containerDroite {
+        flex-direction: column;
+        justify-content: center;
+        width: 100vw;
+        align-items: center;
+        margin-top: 0px;
+   }
+    .card{
+        height: fit-content;
+        margin-bottom: 80px;
+    }
+    .textAdd {
+        height: 100%;
+        opacity: 100%;
+    }
+    
+
+    .softSkills {
+        margin-top: 30px;
+    }
+    .competencesSoft {
+        width: 90vw;
+        flex-direction: column;
+        align-items: center;
+    }
+    .competencesSoft>span {
+        font-size: 18px;
+    }
+    .tiret {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 12px;
+        font-weight: 300;
+
+    }
+
+    .ligneCardSkills {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+    .cardHardSkills {
+        margin-bottom: 30px;
+    }
+    .competencesHard {
+        justify-content: space-around;
+    }
+
+
+    .contact {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .informationContact {
+        flex-direction: column;
+        align-items: center;
+    }
+    .adresse{
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    .titreCentre {
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+    }
+    .blockCentre {
+        display: flex;
+
+    }
+
+    }
