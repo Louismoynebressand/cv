@@ -100,11 +100,12 @@ h3 {
 
 .btnProjet {
     text-decoration: none;
-    width: 200px;
-    height: 20px;
+    width: fit-content;
+    height: 30px;
     color: #4945FF;
     font-weight: 600;
     font-size: 15px;
+    cursor: url("img/cursor_plein_petit.png"), pointer;
 }
 .imgCreaBlender {
     width: 80vw;
@@ -167,4 +168,61 @@ h3 {
 }
 .imgDemie {
     width: 48%;
+}
+.imgStrazerieBook {
+    width: 80vw;
+}
+.doubleLien {
+    margin-bottom: 30px;
+}
+
+footer {
+    background-color: #292929;
+    width: 100vw;
+    margin-top: 100px;
+    padding-bottom: 30px;
+}
+.titreFooter {
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+}
+.titreCentre {
+    margin-left: 10%;
+}
+.informationContact {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.adresse {
+    font-weight: 200;
+    font-size: 16px;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+}
+.texteGras {
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.ligneContact{
+    width: 233px;
+    display: flex;
+
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.iconEnveloppe {
+    color: white;
+    width: 30px;
+}
+.texteContact {
+    color: white;
+    font-size: 16;
+    font-weight: 400;
+    margin-left: 10px;
 }
