@@ -1,0 +1,56 @@
+@media screen and (max-width: 480px) {
+
+    .imgCreaBlender {
+        flex-direction: column;
+    }
+    .imgPartie, .imgPartieGauche {
+        width: 100%;
+        align-items: center;
+    }
+    .imgDiviser {
+        width: 100%;
+    }
+    .imgGameboyBlender {
+        flex-direction: column;
+    }
+    .imgDemie {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .informationsMoitier {
+        flex-direction: column-reverse;
+    }
+        .texteinfosMoitier {
+            width: 100%;
+        }
+        .imgBook60 {
+            width: 100%;
+        }
+    
+     .contact {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+        .informationContact {
+            flex-direction: column;
+            align-items: center;
+        }
+        .adresse{
+            margin-bottom: 50px;
+            text-align: center;
+        }
+        .titreCentre {
+            display: flex;
+            flex-direction: column;
+            align-items: left;
+        }
+        .blockCentre {
+            display: flex;
+
+        }
+        footer {
+            padding-top: 30px;
+        }
+
+}

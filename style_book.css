@@ -86,10 +86,10 @@ h3 {
 }
 .imgxwingsvisu {
     width: 80vw;
-    height: 500px;
-    background-image: url(img/starWars_3_xwings_1920px_moyen.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+    height: fit-content;
+}
+.imgStarsWars {
+    width: 100%;
 }
 .texteinfos{
     width: 100%;
